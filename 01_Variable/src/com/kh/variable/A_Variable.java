@@ -108,6 +108,48 @@ public class A_Variable {
 	System.out.println("ch : " + ch);
 	System.out.println("kim : " + kim);
 	System.out.println("str : " + str);
+	
+	
+	//상수 선언
+	//[표현법] final 자료형 상수이름(대문자);
+	final int AGE;
+	AGE = 10;// 초기화
+	System.out.println("AGE : " + AGE);
+	//AGE = 11; <-에러 나옴 상수의 값은 변경이 불가능하다.
+	//대표적인 상수의 예 : 3.14(파이, 원주율)
+	System.out.println("파이 : " + Math.PI);
+	
+	//번외:가독성을 위해서 언더바를 사용할 수 있음
+	int etc = 999_999_999;
+	System.out.println(etc);
+	
+	//*변수 명명규칙
+	int number;
+	//1) 같은 영역내에 중복된 이름 불가능/대소문자 구분 number =/numBer
+	//2) 예약어(자바에서 사용되고 있는 키워드)
+	//int true;
+	//int abstract;
+	//int static;
+	//int public;
+	//3) 숫자 사용 가능(단, 숫자로 시작은 불가능)
+	//int number1;
+	//int num1ber;
+	//int 1number;
+	//4)특수문자 사용가능(단, _와 $ 이외에는 불가능)
+	//int number_1;
+	//int number$1;
+	//int number!1;
+	//권장사항(오류는 안나지만 암묵적인 룰)
+	// 1) 낙타 표기법(두번째 단어부터 첫글자를 대문자로 작성)
+	String username;//관례상 틀림
+	String userName;
+	String userNameTest;
+	// 2) 한글 사용 가능하나 영문자로 작성
+	String 이름;
+	int 나이;//한글을 사용하지 않는 환경에서 오류 발생가능
+	int age;
+	
+	
 	}
 	
 
