@@ -96,7 +96,7 @@ public class A_Variable {
 	//3-2. 문자열
 	String str;//참조자료형 색 안바뀜
 	str = "abc";
-	//값이 잘 담겨있는지 확인
+	//값이 잘 담겨있는지 확인..
 	System.out.println("isTrue : " + isTrue);
 	System.out.println("isFalse : " + isFalse);
 	System.out.println("bNum : " + bNum);
